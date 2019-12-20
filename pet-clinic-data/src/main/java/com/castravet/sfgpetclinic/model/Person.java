@@ -1,4 +1,4 @@
-package com.castravet.svgpetclinic.model;
+package com.castravet.sfgpetclinic.model;
 
 public class Person {
     private String firstName;
