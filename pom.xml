@@ -44,4 +44,9 @@
         </plugins>
     </build>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/Castravilavila/svgpetclinic.git</developerConnection>
+    </scm>
+
+
 </project>
