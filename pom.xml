@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.castravet</groupId>
     <artifactId>svg-pet-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>svg-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -45,7 +45,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Castravilavila/svgpetclinic.git</developerConnection>
-      <tag>svg-pet-clinic-0.0.3</tag>
+      <tag>HEAD</tag>
   </scm>
 
 
