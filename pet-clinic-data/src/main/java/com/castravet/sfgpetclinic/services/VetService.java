@@ -4,11 +4,6 @@ import com.castravet.sfgpetclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long>{
 
-    Vet findById();
-
-    Vet save(Vet pet);
-
-    Set<Vet> findAll();
 }
