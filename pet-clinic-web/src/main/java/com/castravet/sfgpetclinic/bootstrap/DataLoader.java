@@ -1,5 +1,4 @@
 package com.castravet.sfgpetclinic.bootstrap;
-
 import com.castravet.sfgpetclinic.model.Owner;
 import com.castravet.sfgpetclinic.model.Vet;
 import com.castravet.sfgpetclinic.services.OwnerService;
