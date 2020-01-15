@@ -4,8 +4,6 @@ import com.castravet.sfgpetclinic.model.Owner;
 import com.castravet.sfgpetclinic.model.Vet;
 import com.castravet.sfgpetclinic.services.OwnerService;
 import com.castravet.sfgpetclinic.services.VetService;
-import com.castravet.sfgpetclinic.services.map.OwnerServiceMap;
-import com.castravet.sfgpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
