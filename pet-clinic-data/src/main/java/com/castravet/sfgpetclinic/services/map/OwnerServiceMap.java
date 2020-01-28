@@ -1,16 +1,17 @@
 package com.castravet.sfgpetclinic.services.map;
 
 import com.castravet.sfgpetclinic.model.Owner;
-
 import com.castravet.sfgpetclinic.model.Pet;
 import com.castravet.sfgpetclinic.services.OwnerService;
 import com.castravet.sfgpetclinic.services.PetService;
 import com.castravet.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     private final PetTypeService petTypeService;
 
